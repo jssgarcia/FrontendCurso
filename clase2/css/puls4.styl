@@ -1,0 +1,99 @@
+azul = #22BCE0
+gris_oscuro = #444
+naranja = #DD4F24
+
+body
+	background #E8E8E8
+	color gris_oscuro
+	font-family Arial
+	font-size 14px
+
+header
+	background gris_oscuro
+	color white
+	padding 0.5em
+	overflow hidden
+	ovefdf
+
+	.logo
+		border-right 1px solid azul
+		width 60px
+		float left
+
+
+
+		img
+			width 52px
+
+	.titular
+		margin 0 50px 0 70px
+		.titulo
+			font-size 18px
+			font-weight normal
+			margin 0
+			padding 0
+		.filtro
+			color azul
+			text-decoration none
+			font-weight  bold
+			font-style italic
+		.publicar
+			background naranja
+			color #ffffff
+			float right
+			margin -0.3em 1em 0 0
+			padding 0.2em 0.5em
+			text-decoration none
+			font-style: italic
+			text-shadow 1px 1px 0px black
+	.usuario
+		position absolute
+		right 10px
+		top 10px
+		.avatar
+			margin 0 1em 0 0
+			z-index 2
+			position relative
+			img
+				width 50px
+				border-radius 50%
+		.flechita
+			background naranja
+			color #ffffff
+			display block
+
+			padding 3px
+			position absolute
+			text-align right
+			width 50%
+			top 25%
+			right 0
+			z-index 0
+
+nav
+	background azul
+	border-left 15px solid white
+	.menu
+		height 40px
+		line-height: 40px
+		margin 0
+		padding 0
+		white-space nowrap
+
+		li
+			display inline-block
+
+			a
+				color #ffffff
+				display inline-block
+				text-decoration none
+				padding 0.2em
+				margin 0 0.5em
+			a:before
+				content: ' - '
+
+.left
+	float left
+
+.right
+	float right
